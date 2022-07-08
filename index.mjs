@@ -1,7 +1,7 @@
 import { Telegraf } from "telegraf";
 import axios from 'axios'
 
-const bot = new Telegraf('5474692629:AAGFDqDrV6uDwlUtBOHD-8BoJLN5RdX2VwA');
+const bot = new Telegraf('5385028081:AAHBRnotQylKNsODmpgMcdmIksBrUK2jPsA');
 
 bot.command("start", (ctx) => {
   ctx.reply('Mensaje de bienvenida')
