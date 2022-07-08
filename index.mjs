@@ -4,7 +4,7 @@ import axios from 'axios'
 const bot = new Telegraf('5385028081:AAHBRnotQylKNsODmpgMcdmIksBrUK2jPsA');
 
 bot.command("start", (ctx) => {
-  ctx.reply('Mensaje de bienvenida')
+  ctx.reply('Mensaje de bienvenida nuevo')
 });
 
 bot.command("meme", async (ctx) => {
